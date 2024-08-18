@@ -7,3 +7,7 @@
 # Add js folder - script.js
 <br>
 # Add img folder - images
+<br>
+# Add social media links
+<br>
+# Add adress, contact number, email

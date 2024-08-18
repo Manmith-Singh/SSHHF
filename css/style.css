@@ -19,6 +19,7 @@ body{
     border-left: 8px solid #303054;
     padding: 5px 15px;
     margin-bottom: 15px;
+    background-color: #e6edff;
 }
 .heading p{
     font-size: 18px;
@@ -82,9 +83,9 @@ nav{
     padding-right: 25px;
 }
 
-.cont-sec p i{
+/* .cont-sec p i{
     font-size: 1.5em;
-}
+} */
 
 .cont-sec .social{
     text-align: right
@@ -94,7 +95,8 @@ nav{
     
     width: 20px;
     margin-left: 15px;
-    font-size: 1.5em;
+    color: #303054;
+    font-size: 1.3em;
 }
 
 .home-sec{
@@ -143,17 +145,22 @@ nav{
 /* About section */
 .about-sec{
     padding: 150px 0;
-    background-color: #e6edff;
+    /* background-color: #e6edff; */
+}
+
+.about-sec p{
+    text-indent: 2em;
+    text-align: justify;
 }
 
 .about-sec img{
     width: 350px;
     border: 5px solid #303054;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .about-sec .about-txt p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Donation Section */
@@ -189,11 +196,10 @@ nav{
     transform: scale(1.1);
 }
 
-/* Missions */
+/* Missons */
 .mission{
     padding: 600px 0 150px 0;
 }
-
 
 .gallery-sec{
 	position: relative;
@@ -348,9 +354,15 @@ footer .social a img{
     padding: 0px 5px;
     border: none;
     outline: none;
-    border: 1px solid rgb(206, 212, 218);
+    /* border: 1px solid rgb(206, 212, 218); */
     border-radius: 5px;
-    color: rgb(73, 80, 87);
+    /* color: rgb(73, 80, 87); */
     font-weight: 400;
 }
+
+/* Assuming your header height is 100px, adjust as necessary */
+section {
+    scroll-margin-top: 100px;
+}
+
 
