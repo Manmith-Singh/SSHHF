@@ -62,6 +62,7 @@ nav{
 }
 
 .cont-sec{
+    /* position:relative; */
     padding: 8px;
     background-color: #e6edff;
     width: 100%;
@@ -78,19 +79,26 @@ nav{
 .cont-sec p a{
     text-decoration: none;
     color: #303054;
+    padding-right: 25px;
+}
+
+.cont-sec p i{
+    font-size: 1.5em;
 }
 
 .cont-sec .social{
     text-align: right
 }
 
-.cont-sec .social a img{
+.cont-sec .social i{
+    
     width: 20px;
     margin-left: 15px;
+    font-size: 1.5em;
 }
 
 .home-sec{
-    /* height: 100vh; */
+    height: 100vh;
     padding: 100px 0;
 }
 
@@ -183,8 +191,7 @@ nav{
 
 /* Missions */
 .mission{
-    
-    padding: 600px 0;
+    padding: 600px 0 150px 0;
 }
 
 
@@ -196,7 +203,7 @@ nav{
 .gallery-sec .image-container{
 	display: flex;
 	flex-wrap: wrap;
-	gap: 15px;
+	gap: 55px;
 	justify-content: center;
 	padding: 10px;
 }
