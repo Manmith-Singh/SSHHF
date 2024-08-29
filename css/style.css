@@ -97,8 +97,6 @@ nav{
     margin-left: 15px;
     color: #303054;
     font-size: 1.3em;
-    transition: 0.5s ease-in-out;
-    rotate: 360deg;
 }
 
 .cont-sec .social i:hover {
