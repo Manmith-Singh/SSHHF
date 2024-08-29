@@ -88,7 +88,8 @@ nav{
 } */
 
 .cont-sec .social{
-    text-align: right
+    text-align: right;
+    /* rotate: 180deg; */
 }
 
 .cont-sec .social i{
@@ -97,6 +98,11 @@ nav{
     margin-left: 15px;
     color: #303054;
     font-size: 1.3em;
+}
+
+.cont-sec .social i:hover {
+    transition: 0.5s ease-in-out;
+    rotate: 360deg;
 }
 
 .home-sec{
